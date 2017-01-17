@@ -13,7 +13,7 @@ s.source           = { :git => "https://github.com/liuyunxuan/SDKExportTE.git", 
 s.platform     = :ios, '8.0'
 # s.ios.deployment_target = '8.0'
 s.requires_arc = true
-s.source_files = 'SDKExport' 'SDKExport/*.{h,m}'
+s.source_files = 'SDKExport/*.{h,m}'
 s.vendored_libraries = 'SDKExport/*.a'
 s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony','CFNetwork'
 s.library = 'sqlite3','sqlite3.0','c++'
