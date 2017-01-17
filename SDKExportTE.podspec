@@ -7,7 +7,7 @@ s.homepage         = "https://github.com/liuyunxuan/SDKExportTE.git"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author           = { "liuyunxuan" => "1203092404@qq.com" }
-s.source           = { :git => "https://github.com/liuyunxuan/ivringTool.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/liuyunxuan/SDKExportTE.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://www.tencent.com'
 
 s.platform     = :ios, '8.0'
