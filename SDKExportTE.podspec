@@ -16,5 +16,5 @@ s.requires_arc = true
 s.source_files = 'SDKExport/*.{h,m}'
 s.vendored_libraries = 'SDKExport/*.a'
 s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony','CFNetwork'
-s.library = 'sqlite3','sqlite3.0','c++'
+s.library = 'z','sqlite3.0','c++'
 end
