@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 s.name             = "SDKExportTE"
-s.version          = "1.0.0"
+s.version          = "1.1.0"
 s.summary          = "A marquee view used on iOS."
-s.description      = "It is liuyunxuan demo Tool"
+s.description      = "provide openSDK for developer download to use"
 s.homepage         = "https://github.com/liuyunxuan/SDKExportTE.git"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
