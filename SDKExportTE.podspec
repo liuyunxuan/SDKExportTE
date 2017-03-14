@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "SDKExportTE"
-s.version          = "1.1.0"
+s.version          = "1.2.0"
 s.summary          = "A marquee view used on iOS."
 s.description      = "provide openSDK for developer download to use"
 s.homepage         = "https://github.com/liuyunxuan/SDKExportTE.git"
@@ -15,6 +15,6 @@ s.platform     = :ios, '8.0'
 s.requires_arc = true
 s.source_files = 'SDKExport/*.{h,m}'
 s.vendored_libraries = 'SDKExport/*.a'
-s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony','CFNetwork'
+s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony','CFNetwork',"UIKit"
 s.library = 'z','sqlite3.0','c++'
 end
