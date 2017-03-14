@@ -17,4 +17,5 @@ s.source_files = 'SDKExport/*.{h,m}'
 s.vendored_libraries = 'SDKExport/*.a'
 s.frameworks = 'SystemConfiguration', 'Security', 'CoreTelephony','CFNetwork',"UIKit"
 s.library = 'z','sqlite3.0','c++'
+`echo "2.3" > .swift-version`
 end
